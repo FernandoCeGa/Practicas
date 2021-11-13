@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-link = input("Link a usar: ")
+link = input("Ingrese URL: ")
 
 
 def Imagenes(url, carpeta):
@@ -11,7 +11,7 @@ def Imagenes(url, carpeta):
         print("Carpeta creada")
     except:
         pass
-        print("La Carpeta ya existe, imagenes guardadas")
+        print("La Carpeta ya existe")
     os.chdir(os.path.join(os.getcwd(), carpeta))
 
     r = requests.get(url)
@@ -20,13 +20,13 @@ def Imagenes(url, carpeta):
     imagen = soup.find_all("img")[3:45]
     cont = 1
     for image in imagen:
-        NombreImagen = "img" + str(cont) + ".jpg"
+        NameImagen = "img" + str(cont) + ".jpg"
         link = image["src"]
         cont += 1
-        with open(NombreImagen, "wb") as f:
+        with open(NameImagen, "wb") as f:
             im = requests.get(link)
             f.write(im.content)
-            print("Guardando Imagen: ", NombreImagen)
+            print("Guardando Imagen: ", NameImagen)
 
 
 Imagenes(url=link, carpeta="Imagenes")
