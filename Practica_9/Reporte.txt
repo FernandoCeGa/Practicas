@@ -552,15 +552,15 @@ SearchBox                                                                       
 
 ----------------------------------------
 [*] Desktop file Lists
-::{645FF040-5081-101B-9F08-00AA002F954E}>   
-BlueStacks 5 Multi-Instance Manager.lnk> | 
-BlueStacks 5.lnk> | 
-Canon G3000 series Manual en pantalla.lnk> | 
-Canon Quick Menu.lnk> | 
-Microsoft Edge.lnk> | 
-PrivadoVPN.lnk> | 
-VeraCrypt.lnk> | 
-Microsoft Teams.lnk>   
+::{645FF040-5081-101B-9F08-00AA002F954E}>  
+BlueStacks 5 Multi-Instance Manager.lnk> |
+BlueStacks 5.lnk> |
+Canon G3000 series Manual en pantalla.lnk> |
+Canon Quick Menu.lnk> |
+Microsoft Edge.lnk> |
+PrivadoVPN.lnk> |
+VeraCrypt.lnk> |
+Microsoft Teams.lnk>  
 ----------------------------------------
 identities v.20200525
 (NTUSER.DAT) Extracts values from Identities key; NTUSER.DAT
